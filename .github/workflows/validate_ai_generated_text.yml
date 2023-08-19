@@ -1,0 +1,17 @@
+name: Validate AI Generated Text
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - run: pip install ai_text_validation
+      - run: python ai_text_validation/ai_text_validation.py
