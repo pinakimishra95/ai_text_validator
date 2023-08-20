@@ -1,0 +1,8 @@
+LICENSE.md
+setup.py
+ai_text_validator/ai_text_validator.py
+ai_text_validator.egg-info/PKG-INFO
+ai_text_validator.egg-info/SOURCES.txt
+ai_text_validator.egg-info/dependency_links.txt
+ai_text_validator.egg-info/requires.txt
+ai_text_validator.egg-info/top_level.txt
