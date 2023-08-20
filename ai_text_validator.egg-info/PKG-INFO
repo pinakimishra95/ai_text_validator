@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ai_text_validator
+Version: 0.2.2
+Summary: A Python package for validating AI generated text.
+Home-page: https://github.com/pinakimishra95/ai_text_validator
+Author: Pinaki Mishra
+Author-email: pinakimishra95@gmail.com
+License: Apache License 2.0
+License-File: LICENSE.md
